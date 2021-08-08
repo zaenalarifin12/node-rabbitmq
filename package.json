@@ -1,0 +1,14 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "|-> Q1 | PRODUCER/PUBLISHER -> routing key -> EXCHANGE -> binding |-> Q2 | -> consumer                                                          |-> Q3 |",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
